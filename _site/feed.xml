@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-13T15:01:08+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pertemuan 4</title><link href="http://localhost:4000/2025/04/24/pertemuan-4.html" rel="alternate" type="text/html" title="Pertemuan 4" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/pertemuan-4</id><content type="html" xml:base="http://localhost:4000/2025/04/24/pertemuan-4.html"><![CDATA[<h2 id="pertemuan-4">Pertemuan 4</h2>
+<p><strong>Tanggal:</strong> 24 April 2025<br />
+📝       <strong>:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-materi-javascript-dan-_configyml">🔧 Materi: JavaScript dan _config.yml</h3>
+
+<h3 id="-javascript-di-proyek-jekyll">💡 JavaScript di Proyek Jekyll:</h3>
+
+<p>JavaScript berfungsi untuk menambahkan interaktivitas di halaman web, seperti membuat tombol yang bisa diklik atau menampilkan pesan pop-up.</p>
+
+<ul>
+  <li>📁 Cara Menambahkan JavaScript:
+    <ol>
+      <li>Buat folder baru bernama assets/js di dalam proyek Jekyll.</li>
+      <li>Tambahkan file JavaScript, misalnya script.js, dengan isi kode seperti:
+  <code class="language-plaintext highlighter-rouge">function showAlert() {
+  alert("KAN UDAH DIBILANG JANGAN DIKLIK! 😤");
+  }
+ </code></li>
+      <li>Untuk menggunakan file tersebut, hubungkan ke halaman HTML dengan menambahkan baris ini sebelum penutup <code class="language-plaintext highlighter-rouge">&lt;/body&gt;</code>: `
+  <code class="language-plaintext highlighter-rouge">&lt;script src="/assets/js/scripts.js" defer&gt;&lt;/script&gt;</code></li>
+    </ol>
+  </li>
+</ul>
+
+<hr />
+<h3 id="️-mengatur-proyek-dengan-_configyml">⚙️ Mengatur Proyek dengan _config.yml:</h3>
+<h4 id="isi-_configyml">Isi _config.yml:</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>url: https://jexiee99.github.io/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 4 Tanggal: 24 April 2025 📝 : Jelita Anggraini]]></summary></entry><entry><title type="html">Pertemuan 3</title><link href="http://localhost:4000/2025/03/14/pertemuan-3.html" rel="alternate" type="text/html" title="Pertemuan 3" /><published>2025-03-14T00:00:00+07:00</published><updated>2025-03-14T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/14/pertemuan-3</id><content type="html" xml:base="http://localhost:4000/2025/03/14/pertemuan-3.html"><![CDATA[<h2 id="pertemuan-3">Pertemuan 3</h2>
+<p><strong>Tanggal:</strong> 14 Maret 2025<br />
+📝       <strong>:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-materi-menulis-post-di-jekyll-dengan-markdown">🔧 Materi: Menulis Post di Jekyll dengan Markdown</h3>
+
+<p>Markdown adalah bahasa penulisan ringan (lightweight markup language) yang digunakan untuk membuat format teks yang mudah dibaca dan ditulis, tanpa harus menggunakan kode HTML yang rumit.
+Markdown sangat populer untuk membuat dokumentasi, menulis blog (seperti di Jekyll), README di GitHub, atau catatan di editor teks seperti VS Code dan Notion.</p>
+
+<hr />
+
+<h3 id="-elemen-penting-markdown">📌 Elemen Penting Markdown:</h3>
+
+<h3 id="1--judul">1.  Judul</h3>
+<p>Gunakan tanda pagar # di awal baris untuk membuat judul. Jika semakin banyak tanda pagar, semakin kecil ukuran judulnya.</p>
+
+<p>contoh :</p>
+<h1 id="judul-besar">Judul Besar</h1>
+<h2 id="judul-sedang">Judul Sedang</h2>
+<h3 id="judul-kecil">Judul Kecil</h3>
+<hr />
+
+<h3 id="2--paragraf">2.  Paragraf</h3>
+<p>tulis kalimat seperti biasa. Gunakan satu baris kosong untuk pindah ke paragraf baru.
+Ini paragraf pertama.</p>
+
+<p>Ini paragraf kedua.</p>
+
+<h3 id="3--teks-spesial">3.  Teks Spesial</h3>
+<ul>
+  <li>Tebal → <strong>tebal</strong></li>
+  <li>Miring → <em>miring</em></li>
+  <li>Tebal &amp; miring → <strong><em>gabungan</em></strong></li>
+</ul>
+
+<h3 id="4-daftar">4. Daftar</h3>
+<p><strong>Tanpa urutan (bullet):</strong></p>
+<ul>
+  <li>Satu</li>
+  <li>Dua
+    <ul>
+      <li>Sub item</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Dengan angka:</strong></p>
+<ol>
+  <li>Pertama</li>
+  <li>Kedua
+    <ol>
+      <li>Sub langkah</li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="5-link-dan-gambar">5. Link dan Gambar</h3>
+<p><strong>Link ke website:</strong>
+<code class="language-plaintext highlighter-rouge">[Klik di sini](https://example.com)</code></p>
+
+<p><strong>Menampilkan gambar:</strong>
+<code class="language-plaintext highlighter-rouge">![Deskripsi Gambar](https://example.com/gambar.jpg)</code></p>
+
+<h3 id="6-garis-pembatas">6. Garis Pembatas</h3>
+<p><strong>Untuk membuat pemisah antar bagian:</strong></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 3 Tanggal: 14 Maret 2025 📝 : Jelita Anggraini]]></summary></entry><entry><title type="html">Pertemuan 2</title><link href="http://localhost:4000/2025/03/07/Pertemuan-2.html" rel="alternate" type="text/html" title="Pertemuan 2" /><published>2025-03-07T00:00:00+07:00</published><updated>2025-03-07T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/07/Pertemuan-2</id><content type="html" xml:base="http://localhost:4000/2025/03/07/Pertemuan-2.html"><![CDATA[<h2 id="pertemuan-1">Pertemuan 1</h2>
+<p><strong>Tanggal:</strong> 07 Maret 2025<br />
+📝       <strong>:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-materi-bikin-web-pribadi-pakai-jekyll--github">🔧 Materi: Bikin Web Pribadi Pakai Jekyll + GitHub</h3>
+
+<p>Di pertemuan ini kami diajari bagaimana caranya bikin website pribadi pakai Jekyll, terus langsung diupload ke GitHub supaya bisa diakses secara online oleh semua orang.</p>
+
+<hr />
+
+<h3 id="langkah-langkah-buat-web-pribadi">Langkah-langkah Buat Web Pribadi</h3>
+
+<ol>
+  <li>
+    <p><strong>Buat akun GitHub</strong><br />
+Pertama, buat akun GitHub. Buat username-nya sesuai nama masing-masing dan gampang diingat.</p>
+  </li>
+  <li>
+    <p><strong>Buat repository baru</strong><br />
+Berikan nama repo-nya <code class="language-plaintext highlighter-rouge">username.github.io</code>. Contohnya <code class="language-plaintext highlighter-rouge">jexiee99</code>, berarti nama repo-nya <code class="language-plaintext highlighter-rouge">jexiee99.github.io</code>.</p>
+  </li>
+  <li>
+    <p><strong>Clone repository ke komputer</strong><br />
+Di terminal, jalankan: (contoh) git clone https://github.com/jexiee99/jexiee99.github.io.git</p>
+  </li>
+  <li>
+    <p><strong>Masuk ke folder repository nya</strong>, Lalu install Jekyll sama Bundler di terminal, ketik: <code class="language-plaintext highlighter-rouge">gem install jekyll bundler</code>.</p>
+  </li>
+  <li><strong>Inisialisasi Jekyll:</strong>
+    <ul>
+      <li>pertama jalankan perintah berikut di terminal: <code class="language-plaintext highlighter-rouge">bundle init</code> (Perintah ini akan membuat file) bernama Gemfile di folder aktif.</li>
+      <li>Selanjutnya, buka Gemfile, lalu tambahkan baris berikut di bagian bawah untuk menyertakan Jekyll: <code class="language-plaintext highlighter-rouge">gem "jekyll"</code></li>
+      <li>Setelah itu, jalankan: <code class="language-plaintext highlighter-rouge">bundle install</code> (Langkah ini akan menginstal Jekyll sesuai yang ada di Gemfile).</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Edit Gemfile</strong><br />
+Di bagian paling bawah file <code class="language-plaintext highlighter-rouge">Gemfile</code>, tambahkan: <code class="language-plaintext highlighter-rouge">gem "jekyll"</code></p>
+  </li>
+  <li>
+    <p><strong>Buat file HTML awal</strong><br />
+Buat file awal yaitu <code class="language-plaintext highlighter-rouge">index.html</code>, lalu isi dengan HTML sederhana buat tampilan awal websitenya.</p>
+  </li>
+  <li>
+    <p><strong>Build websitenya</strong><br />
+Supaya Jekyll bisa nyiapin folder <code class="language-plaintext highlighter-rouge">_site</code> ketik: <code class="language-plaintext highlighter-rouge">jekyll build</code></p>
+  </li>
+  <li>
+    <p><strong>Jalankan websitenya secara lokal</strong><br />
+Setelah build selesai, jalankan perintah: <code class="language-plaintext highlighter-rouge">jekyll serve</code>. di web browser alamatnya akan seperti ini <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>.</p>
+  </li>
+  <li><strong>Push ke GitHub</strong><br />
+Setelah semuanya sudah selesai, kirim project-nya ke GitHub, jalankan perintah:
+    <ul>
+      <li>git add .</li>
+      <li>git commit -m “Upload web awal”</li>
+      <li>git push</li>
+    </ul>
+  </li>
+  <li><strong>buat file baru friends.md untuk menampilkan daftar teman</strong></li>
+</ol>
+
+<pre><code class="language----">layout: default
+title: Friends
+---
+# Friends page
+
+Berikut teman-teman saya di kelas:
+1. [Ahmad Aulia Fahlevi](https://lepii1.github.io/)
+2. [Alvi Syahril](https://alvi0syahril.github.io/)
+3. [Bunga Alfa Zahrah](https://bunga-hub.github.io/)
+4. [Deva Risny](https://devarisny.github.io)
+5. [Faizul Abrar](https://faizul-abrar.github.io/)
+6. [Faqriyadi Andika](https://faqriyadiandika.github.io)
+7. [Fathan Mubina](https://fathan-mubina.github.io/)
+8. [Firdhila Ananda Syahputri](https://firdhilaananda.github.io)
+9. [Hafidz Maulana](https://hafidzmaulana28.github.io/)
+10. [Hamizan Putra Zulia](https://hamizan18.github.io/)
+11. [Hayzar Muhaiyar](https://hayzarmuhaiyar0101.github.io/)
+12. [Ilham Syahdienar](https://ilhamdienar.github.io/)
+13. [Imam Nawawi](https://imamnawawi1c.github.io/)
+14. [Irfandi](https://irfandi8.github.io/)
+15. [Izzati Nurvira](https://izzati31.github.io/)
+16. [Jelita Anggraini](https://jexiee99.github.io/)
+17. [Kaisan Nurwaled](https://kaisan969.github.io)
+18. [Khairatil Aini](https://khairatilaini.github.io/)
+19. [Khalisha Zafira](https://khalisha0zafira.github.io/)
+20. [Lediana Berasa](https://ledianaberasa.github.io/)
+21. [Linda Wati](https://lindawati26.github.io/)
+22. [Liza Aulia Siregar](https://lizaauliasiregar.github.io/)
+23. [M. Hafidz Firansyah](https://mhafidzfiransyah.github.io/)
+24. [M. Iqbal Sayuti](https://iqbalsayuti0.github.io/)
+25. [Maila Aziza](https://mailaazizaa.github.io/)
+26. [Maisha Zahrani](https://maishazahrani.github.io/)
+27. [Malia Ulfa](https://maliaulfa2.github.io/)
+28. [Muhammad Fathurrahman](https://fyou00.github.io/) 
+</code></pre>
+<hr />
+<p><strong>Update file index.html jadi seperti ini</strong></p>
+
+<pre><code class="language----">layout: default
+title: Teman
+---
+
+# Teman-Teman Kelas
+
+Berikut beberapa teman saya di kelas:
+
+- [Jelita Anggraini](https://jexiee99.github.io/)
+- teman-teman lainnya...
+
+</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 1 Tanggal: 07 Maret 2025 📝 : Jelita Anggraini]]></summary></entry><entry><title type="html">Pertemuan 1</title><link href="http://localhost:4000/2025/02/21/Pertemuan-1.html" rel="alternate" type="text/html" title="Pertemuan 1" /><published>2025-02-21T00:00:00+07:00</published><updated>2025-02-21T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/21/Pertemuan-1</id><content type="html" xml:base="http://localhost:4000/2025/02/21/Pertemuan-1.html"><![CDATA[<h2 id="pertemuan-1">Pertemuan 1</h2>
+<p><strong>Tanggal:</strong> 21 Februari 2025<br />
+📝       <strong>:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-materi-pengenalan-instalasi-ruby-dan-jekyll">🔧 Materi: Pengenalan Instalasi Ruby dan Jekyll</h3>
+
+<p>Di pertemuan ini, kami belajar bagaimana cara pasang Ruby dan Jekyll di laptop supaya bisa mulai bikin blog menggunakan Jekyll.</p>
+
+<hr />
+
+<h3 id="-langkah-langkah-instalasi-ruby-dan-jekyll">📥 Langkah-Langkah Instalasi Ruby dan Jekyll:</h3>
+
+<h4 id="1-download-ruby-installer">1. Download Ruby Installer</h4>
+
+<ol>
+  <li>Buka situs: <a href="https://rubyinstaller.org">https://rubyinstaller.org</a></li>
+  <li>Pilih versi Ruby 2.7.0 atau lebih baru</li>
+  <li>Jalankan file installernya</li>
+  <li>Centang opsi untuk menambahkan Ruby ke <code class="language-plaintext highlighter-rouge">PATH</code> (biar Ruby bisa dikenali di terminal)</li>
+  <li>Ikuti proses instalasi sampai selesai</li>
+</ol>
+
+<h4 id="2-cek-apakah-sudah-terinstal">2. Cek Apakah Sudah Terinstal</h4>
+
+<ul>
+  <li>Untuk memastikan Ruby berhasil diinstal, buka terminal/command prompt dan ketik: <strong><code class="language-plaintext highlighter-rouge">ruby -v</code></strong></li>
+  <li>Untuk periksa rubyGems telah terpasang ketik: <strong><code class="language-plaintext highlighter-rouge">gem -v</code></strong></li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 1 Tanggal: 21 Februari 2025 📝 : Jelita Anggraini]]></summary></entry></feed>
