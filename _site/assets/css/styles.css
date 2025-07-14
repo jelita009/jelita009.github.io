@@ -121,4 +121,21 @@ footer {
   margin-top: 48px;
 }
 
+small {
+  color: var(--primary);
+}
+
+.card {
+  background-color: wheat;
+  padding: 0.5rem 1.5rem;       
+  margin-bottom: 1rem; 
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: gold;
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
 /*# sourceMappingURL=styles.css.map */
