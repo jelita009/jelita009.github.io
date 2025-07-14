@@ -1,7 +1,10 @@
 ---
 layout: post
-tittle: Pertemuan 1
+title: Pertemuan 1
+description :  Pengenalan Instalasi Ruby dan Jekyll
 ---
+
+
 
 ## Pertemuan 1  
 **Tanggal:** 21 Februari 2025  

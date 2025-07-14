@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-13T15:01:08+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pertemuan 4</title><link href="http://localhost:4000/2025/04/24/pertemuan-4.html" rel="alternate" type="text/html" title="Pertemuan 4" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/pertemuan-4</id><content type="html" xml:base="http://localhost:4000/2025/04/24/pertemuan-4.html"><![CDATA[<h2 id="pertemuan-4">Pertemuan 4</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-14T16:46:08+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pertemuan 4</title><link href="http://localhost:4000/2025/04/24/pertemuan-4.html" rel="alternate" type="text/html" title="Pertemuan 4" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/pertemuan-4</id><content type="html" xml:base="http://localhost:4000/2025/04/24/pertemuan-4.html"><![CDATA[<h2 id="pertemuan-4">Pertemuan 4</h2>
 <p><strong>Tanggal:</strong> 24 April 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 4 Tanggal: 24 April 2025 📝 : Jelita Anggraini]]></summary></entry><entry><title type="html">Pertemuan 3</title><link href="http://localhost:4000/2025/03/14/pertemuan-3.html" rel="alternate" type="text/html" title="Pertemuan 3" /><published>2025-03-14T00:00:00+07:00</published><updated>2025-03-14T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/14/pertemuan-3</id><content type="html" xml:base="http://localhost:4000/2025/03/14/pertemuan-3.html"><![CDATA[<h2 id="pertemuan-3">Pertemuan 3</h2>
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[JavaScript dan _config.yml]]></summary></entry><entry><title type="html">Pertemuan 3</title><link href="http://localhost:4000/2025/03/14/pertemuan-3.html" rel="alternate" type="text/html" title="Pertemuan 3" /><published>2025-03-14T00:00:00+07:00</published><updated>2025-03-14T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/14/pertemuan-3</id><content type="html" xml:base="http://localhost:4000/2025/03/14/pertemuan-3.html"><![CDATA[<h2 id="pertemuan-3">Pertemuan 3</h2>
 <p><strong>Tanggal:</strong> 14 Maret 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -102,7 +102,7 @@ Ini paragraf pertama.</p>
 <h3 id="6-garis-pembatas">6. Garis Pembatas</h3>
 <p><strong>Untuk membuat pemisah antar bagian:</strong></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 3 Tanggal: 14 Maret 2025 📝 : Jelita Anggraini]]></summary></entry><entry><title type="html">Pertemuan 2</title><link href="http://localhost:4000/2025/03/07/Pertemuan-2.html" rel="alternate" type="text/html" title="Pertemuan 2" /><published>2025-03-07T00:00:00+07:00</published><updated>2025-03-07T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/07/Pertemuan-2</id><content type="html" xml:base="http://localhost:4000/2025/03/07/Pertemuan-2.html"><![CDATA[<h2 id="pertemuan-1">Pertemuan 1</h2>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Menulis Post di Jekyll dengan Markdown]]></summary></entry><entry><title type="html">Pertemuan 2</title><link href="http://localhost:4000/2025/03/07/Pertemuan-2.html" rel="alternate" type="text/html" title="Pertemuan 2" /><published>2025-03-07T00:00:00+07:00</published><updated>2025-03-07T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/07/Pertemuan-2</id><content type="html" xml:base="http://localhost:4000/2025/03/07/Pertemuan-2.html"><![CDATA[<h2 id="pertemuan-2">Pertemuan 2</h2>
 <p><strong>Tanggal:</strong> 07 Maret 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -215,7 +215,7 @@ Berikut beberapa teman saya di kelas:
 - [Jelita Anggraini](https://jexiee99.github.io/)
 - teman-teman lainnya...
 
-</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 1 Tanggal: 07 Maret 2025 📝 : Jelita Anggraini]]></summary></entry><entry><title type="html">Pertemuan 1</title><link href="http://localhost:4000/2025/02/21/Pertemuan-1.html" rel="alternate" type="text/html" title="Pertemuan 1" /><published>2025-02-21T00:00:00+07:00</published><updated>2025-02-21T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/21/Pertemuan-1</id><content type="html" xml:base="http://localhost:4000/2025/02/21/Pertemuan-1.html"><![CDATA[<h2 id="pertemuan-1">Pertemuan 1</h2>
+</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Membuat Web Pribadi Pakai Jekyll + GitHub]]></summary></entry><entry><title type="html">Pertemuan 1</title><link href="http://localhost:4000/2025/02/21/Pertemuan-1-Bikin-Web-Pribadi-Pakai-Jekyll-+-GitHub.html" rel="alternate" type="text/html" title="Pertemuan 1" /><published>2025-02-21T00:00:00+07:00</published><updated>2025-02-21T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/21/Pertemuan-1-Bikin%20Web%20Pribadi%20Pakai%20Jekyll%20+%20GitHub</id><content type="html" xml:base="http://localhost:4000/2025/02/21/Pertemuan-1-Bikin-Web-Pribadi-Pakai-Jekyll-+-GitHub.html"><![CDATA[<h2 id="pertemuan-1">Pertemuan 1</h2>
 <p><strong>Tanggal:</strong> 21 Februari 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -244,4 +244,4 @@ Berikut beberapa teman saya di kelas:
 <ul>
   <li>Untuk memastikan Ruby berhasil diinstal, buka terminal/command prompt dan ketik: <strong><code class="language-plaintext highlighter-rouge">ruby -v</code></strong></li>
   <li>Untuk periksa rubyGems telah terpasang ketik: <strong><code class="language-plaintext highlighter-rouge">gem -v</code></strong></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Pertemuan 1 Tanggal: 21 Februari 2025 📝 : Jelita Anggraini]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Pengenalan Instalasi Ruby dan Jekyll]]></summary></entry></feed>
