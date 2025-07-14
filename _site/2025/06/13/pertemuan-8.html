@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pertemuan 8</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/styles.css"/>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/images/favicon.ico" />
+
+  <!-- JavaScript -->
+  <script src="/assets/js/scripts.js" defer></script>
+
+  <!-- Plugins -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Pertemuan 8</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Pertemuan 8" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Membuat Form Pendaftaran Siswa dengan PHP dan MySQL" />
+<meta property="og:description" content="Membuat Form Pendaftaran Siswa dengan PHP dan MySQL" />
+<link rel="canonical" href="http://localhost:4000/2025/06/13/pertemuan-8.html" />
+<meta property="og:url" content="http://localhost:4000/2025/06/13/pertemuan-8.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-06-13T00:00:00+07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Pertemuan 8" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-13T00:00:00+07:00","datePublished":"2025-06-13T00:00:00+07:00","description":"Membuat Form Pendaftaran Siswa dengan PHP dan MySQL","headline":"Pertemuan 8","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/06/13/pertemuan-8.html"},"url":"http://localhost:4000/2025/06/13/pertemuan-8.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/assets/images/jelita2.jpg" alt="Profile Picture" class="profile-picture" />
+  
+      <h1></h1>
+      <p></p>
+    </header>
+
+    <nav>
+      <nav>
+    <ul>
+      <li><a href="/" class="active">Beranda</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      
+        <li>
+          <a href="/friends.html" >
+            Friends
+          </a>
+        </li>
+      
+        <li>
+          <a href="/blog.html" >
+            Blog
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  
+    </nav>
+
+    <main>
+      <!-- <h1>Pertemuan 8</h1>
+<p>13 Jun 2025 - </p> -->
+
+<h2 id="pertemuan-8">Pertemuan 8</h2>
+<p><strong>Tanggal:</strong> 13 Juni 2025<br />
+📝 <strong>Nama:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-tujuan-praktikum">📋 Tujuan Praktikum</h3>
+
+<p>Pada pertemuan ini, kamu akan membangun aplikasi pendaftaran siswa sederhana menggunakan <strong>PHP</strong> dan <strong>MySQL</strong> yang dijalankan di lokal server (seperti XAMPP atau Laragon).</p>
+
+<hr />
+
+<h3 id="-langkah-langkah-praktikum">🔧 Langkah-Langkah Praktikum</h3>
+
+<h4 id="1-siapkan-folder-project">1. Siapkan Folder Project</h4>
+
+<p>Masuk ke direktori <code class="language-plaintext highlighter-rouge">htdocs</code> (XAMPP) atau <code class="language-plaintext highlighter-rouge">www</code> (Laragon) dan buat folder bernama <code class="language-plaintext highlighter-rouge">form-siswa</code>.</p>
+
+<hr />
+
+<h4 id="2-buat-koneksi-ke-database">2. Buat Koneksi ke Database</h4>
+
+<p>Buat file bernama <code class="language-plaintext highlighter-rouge">koneksi.php</code> dan isi koneksi ke database:</p>
+
+<pre>
+&lt;?php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "latihan";
+
+$koneksi = mysqli_connect($host, $user, $pass, $db);
+
+if (!$koneksi) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+?&gt;
+</pre>
+
+<hr />
+
+<h4 id="3-buat-database-dan-tabel">3. Buat Database dan Tabel</h4>
+
+<p>Jalankan perintah berikut di MySQL via terminal/cmd:</p>
+
+<pre>
+mysql -u root -p
+CREATE DATABASE latian;
+USE latian;
+
+CREATE TABLE siswa (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nama VARCHAR(100),
+  alamat VARCHAR(200),
+  jenis_kelamin TINYINT(1),
+  agama VARCHAR(20),
+  sekolah_asal VARCHAR(50)
+);
+</pre>
+
+<hr />
+
+<h4 id="4-file-form-daftarphp">4. File <code class="language-plaintext highlighter-rouge">form-daftar.php</code></h4>
+
+<p>Buat form input data siswa:</p>
+
+<pre>
+&lt;form action="create.php" method="POST"&gt;
+  Nama: &lt;input type="text" name="nama"&gt;&lt;br&gt;
+  Alamat: &lt;textarea name="alamat"&gt;&lt;/textarea&gt;&lt;br&gt;
+  Jenis Kelamin:
+  &lt;input type="radio" name="jenis_kelamin" value="1"&gt; Laki-laki
+  &lt;input type="radio" name="jenis_kelamin" value="0"&gt; Perempuan &lt;br&gt;
+  Agama:
+  &lt;select name="agama"&gt;
+    &lt;option&gt;Islam&lt;/option&gt;
+    &lt;option&gt;Kristen&lt;/option&gt;
+  &lt;/select&gt;&lt;br&gt;
+  Sekolah Asal: &lt;input type="text" name="sekolah_asal"&gt;&lt;br&gt;
+  &lt;button type="submit"&gt;Daftar&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+
+<hr />
+
+<h4 id="5-file-createphp">5. File <code class="language-plaintext highlighter-rouge">create.php</code></h4>
+
+<p>Untuk menyimpan data:</p>
+
+<pre>
+&lt;?php
+include "koneksi.php";
+
+$nama = $_POST['nama'];
+$alamat = $_POST['alamat'];
+$jk = $_POST['jenis_kelamin'];
+$agama = $_POST['agama'];
+$sekolah = $_POST['sekolah_asal'];
+
+$sql = "INSERT INTO siswa (nama, alamat, jenis_kelamin, agama, sekolah_asal)
+        VALUES ('$nama', '$alamat', '$jk', '$agama', '$sekolah')";
+
+if (mysqli_query($koneksi, $sql)) {
+    header("Location: list-siswa.php");
+} else {
+    echo "Gagal: " . mysqli_error($koneksi);
+}
+?&gt;
+</pre>
+
+<hr />
+
+<h4 id="6-file-list-siswaphp">6. File <code class="language-plaintext highlighter-rouge">list-siswa.php</code></h4>
+
+<p>Menampilkan daftar siswa:</p>
+
+<pre>
+&lt;?php
+include "koneksi.php";
+$result = mysqli_query($koneksi, "SELECT * FROM siswa");
+?&gt;
+
+&lt;table border="1"&gt;
+  &lt;tr&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;Nama&lt;/th&gt;&lt;th&gt;Aksi&lt;/th&gt;&lt;/tr&gt;
+  &lt;?php $no=1; while($row = mysqli_fetch_assoc($result)) : ?&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;?= $no++ ?&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;?= $row['nama'] ?&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;a href="form-edit.php?id=&lt;?= $row['id'] ?&gt;"&gt;Edit&lt;/a&gt;
+        &lt;a href="form-delete.php?id=&lt;?= $row['id'] ?&gt;"&gt;Hapus&lt;/a&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;?php endwhile; ?&gt;
+&lt;/table&gt;
+</pre>
+
+<hr />
+
+<h4 id="7-file-form-editphp-dan-updatephp">7. File <code class="language-plaintext highlighter-rouge">form-edit.php</code> dan <code class="language-plaintext highlighter-rouge">update.php</code></h4>
+
+<p>Edit dan update data siswa yang sudah ada. Isi sesuai pola yang sama: ambil data berdasarkan <code class="language-plaintext highlighter-rouge">id</code>, tampilkan dalam form, lalu simpan perubahan dengan query <code class="language-plaintext highlighter-rouge">UPDATE</code>.</p>
+
+<hr />
+
+<h4 id="8-file-form-deletephp-dan-deletephp">8. File <code class="language-plaintext highlighter-rouge">form-delete.php</code> dan <code class="language-plaintext highlighter-rouge">delete.php</code></h4>
+
+<p>Menampilkan konfirmasi penghapusan dan menjalankan query <code class="language-plaintext highlighter-rouge">DELETE</code>.</p>
+
+<hr />
+
+<h3 id="-catatan-tambahan">📌 Catatan Tambahan</h3>
+
+<ul>
+  <li>Semua file harus ada di folder project yang sama.</li>
+  <li>Pastikan Apache dan MySQL diaktifkan melalui XAMPP/Laragon.</li>
+  <li>Cek setiap perubahan melalui <code class="language-plaintext highlighter-rouge">localhost/foldermu/</code>.</li>
+</ul>
+
+<hr />
+
+<h3 id="-kesimpulan">🎯 Kesimpulan</h3>
+
+<ul>
+  <li>PHP + MySQL memungkinkan membuat aplikasi web dinamis.</li>
+  <li>Folder seperti <code class="language-plaintext highlighter-rouge">form-siswa</code> dapat digunakan untuk memisahkan projek.</li>
+  <li>CRUD (Create, Read, Update, Delete) merupakan dasar dari semua aplikasi data.</li>
+</ul>
+
+<hr />
+
+
+    </main>
+
+    <footer>
+      <p>&copy; 2025  Jelita Anggraini. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

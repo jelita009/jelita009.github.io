@@ -1,4 +1,380 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-14T21:10:14+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pertemuan 4</title><link href="http://localhost:4000/2025/04/24/pertemuan-4.html" rel="alternate" type="text/html" title="Pertemuan 4" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/pertemuan-4</id><content type="html" xml:base="http://localhost:4000/2025/04/24/pertemuan-4.html"><![CDATA[<h2 id="pertemuan-4">Pertemuan 4</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-15T00:11:18+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pertemuan 9</title><link href="http://localhost:4000/2025/06/20/pertemuan-9.html" rel="alternate" type="text/html" title="Pertemuan 9" /><published>2025-06-20T00:00:00+07:00</published><updated>2025-06-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/06/20/pertemuan-9</id><content type="html" xml:base="http://localhost:4000/2025/06/20/pertemuan-9.html"><![CDATA[<h2 id="pertemuan-9">Pertemuan 9</h2>
+<p><strong>Tanggal:</strong> 20 Juni 2025<br />
+📝 <strong>Nama:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-tujuan">🎯 Tujuan</h3>
+
+<p>Mengenal dan mempraktikkan <strong>GitHub Classroom</strong> sebagai sarana untuk mengumpulkan tugas pemrograman secara online menggunakan sistem version control Git.</p>
+
+<hr />
+
+<h3 id="-langkah-langkah-praktikum">🔧 Langkah-Langkah Praktikum</h3>
+
+<h4 id="1-akses-tugas-dari-github-classroom">1. Akses Tugas dari GitHub Classroom</h4>
+
+<ul>
+  <li>Pastikan sudah login ke akun GitHub.</li>
+  <li>Klik link tugas dari dosen (biasanya berbentuk: <code class="language-plaintext highlighter-rouge">https://classroom.github.com/...</code>).</li>
+  <li>Setelah terbuka, klik tombol <strong>“Authorize”</strong> jika diminta akses.</li>
+  <li>Kemudian klik <strong>“Accept this assignment”</strong> untuk menerima tugas.</li>
+</ul>
+
+<p>Jika berhasil, akan muncul pesan:</p>
+<blockquote>
+  <p><strong>You’re ready to go!</strong><br />
+Artinya repositori tugas berhasil dibuat di akun GitHub kamu.</p>
+</blockquote>
+
+<hr />
+
+<h4 id="2-salin-url-repositori">2. Salin URL Repositori</h4>
+
+<ul>
+  <li>Buka repositori hasil dari tugas tadi.</li>
+  <li>Klik tombol <strong>“Code”</strong> lalu pilih tab <strong>SSH</strong> (atau HTTPS jika tidak pakai SSH).</li>
+  <li>Salin URL yang muncul, contohnya:</li>
+</ul>
+
+<pre>
+git@github.com:JTIK-PNL/php-crud-jelita009.git
+</pre>
+
+<hr />
+
+<h4 id="3-clone-repositori-ke-komputer">3. Clone Repositori ke Komputer</h4>
+
+<p>Buka folder lokal tempat menyimpan project, lalu jalankan terminal/CMD dari folder tersebut.</p>
+
+<p>Ketik perintah berikut:</p>
+
+<pre>
+git clone git@github.com:JTIK-PNL/php-crud-jelita009.git
+</pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Mengumpulkan Tugas via GitHub Classroom]]></summary></entry><entry><title type="html">Pertemuan 8</title><link href="http://localhost:4000/2025/06/13/pertemuan-8.html" rel="alternate" type="text/html" title="Pertemuan 8" /><published>2025-06-13T00:00:00+07:00</published><updated>2025-06-13T00:00:00+07:00</updated><id>http://localhost:4000/2025/06/13/pertemuan-8</id><content type="html" xml:base="http://localhost:4000/2025/06/13/pertemuan-8.html"><![CDATA[<h2 id="pertemuan-8">Pertemuan 8</h2>
+<p><strong>Tanggal:</strong> 13 Juni 2025<br />
+📝 <strong>Nama:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-tujuan-praktikum">📋 Tujuan Praktikum</h3>
+
+<p>Pada pertemuan ini, kamu akan membangun aplikasi pendaftaran siswa sederhana menggunakan <strong>PHP</strong> dan <strong>MySQL</strong> yang dijalankan di lokal server (seperti XAMPP atau Laragon).</p>
+
+<hr />
+
+<h3 id="-langkah-langkah-praktikum">🔧 Langkah-Langkah Praktikum</h3>
+
+<h4 id="1-siapkan-folder-project">1. Siapkan Folder Project</h4>
+
+<p>Masuk ke direktori <code class="language-plaintext highlighter-rouge">htdocs</code> (XAMPP) atau <code class="language-plaintext highlighter-rouge">www</code> (Laragon) dan buat folder bernama <code class="language-plaintext highlighter-rouge">form-siswa</code>.</p>
+
+<hr />
+
+<h4 id="2-buat-koneksi-ke-database">2. Buat Koneksi ke Database</h4>
+
+<p>Buat file bernama <code class="language-plaintext highlighter-rouge">koneksi.php</code> dan isi koneksi ke database:</p>
+
+<pre>
+&lt;?php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "latihan";
+
+$koneksi = mysqli_connect($host, $user, $pass, $db);
+
+if (!$koneksi) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+?&gt;
+</pre>
+
+<hr />
+
+<h4 id="3-buat-database-dan-tabel">3. Buat Database dan Tabel</h4>
+
+<p>Jalankan perintah berikut di MySQL via terminal/cmd:</p>
+
+<pre>
+mysql -u root -p
+CREATE DATABASE latian;
+USE latian;
+
+CREATE TABLE siswa (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nama VARCHAR(100),
+  alamat VARCHAR(200),
+  jenis_kelamin TINYINT(1),
+  agama VARCHAR(20),
+  sekolah_asal VARCHAR(50)
+);
+</pre>
+
+<hr />
+
+<h4 id="4-file-form-daftarphp">4. File <code class="language-plaintext highlighter-rouge">form-daftar.php</code></h4>
+
+<p>Buat form input data siswa:</p>
+
+<pre>
+&lt;form action="create.php" method="POST"&gt;
+  Nama: &lt;input type="text" name="nama"&gt;&lt;br&gt;
+  Alamat: &lt;textarea name="alamat"&gt;&lt;/textarea&gt;&lt;br&gt;
+  Jenis Kelamin:
+  &lt;input type="radio" name="jenis_kelamin" value="1"&gt; Laki-laki
+  &lt;input type="radio" name="jenis_kelamin" value="0"&gt; Perempuan &lt;br&gt;
+  Agama:
+  &lt;select name="agama"&gt;
+    &lt;option&gt;Islam&lt;/option&gt;
+    &lt;option&gt;Kristen&lt;/option&gt;
+  &lt;/select&gt;&lt;br&gt;
+  Sekolah Asal: &lt;input type="text" name="sekolah_asal"&gt;&lt;br&gt;
+  &lt;button type="submit"&gt;Daftar&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+
+<hr />
+
+<h4 id="5-file-createphp">5. File <code class="language-plaintext highlighter-rouge">create.php</code></h4>
+
+<p>Untuk menyimpan data:</p>
+
+<pre>
+&lt;?php
+include "koneksi.php";
+
+$nama = $_POST['nama'];
+$alamat = $_POST['alamat'];
+$jk = $_POST['jenis_kelamin'];
+$agama = $_POST['agama'];
+$sekolah = $_POST['sekolah_asal'];
+
+$sql = "INSERT INTO siswa (nama, alamat, jenis_kelamin, agama, sekolah_asal)
+        VALUES ('$nama', '$alamat', '$jk', '$agama', '$sekolah')";
+
+if (mysqli_query($koneksi, $sql)) {
+    header("Location: list-siswa.php");
+} else {
+    echo "Gagal: " . mysqli_error($koneksi);
+}
+?&gt;
+</pre>
+
+<hr />
+
+<h4 id="6-file-list-siswaphp">6. File <code class="language-plaintext highlighter-rouge">list-siswa.php</code></h4>
+
+<p>Menampilkan daftar siswa:</p>
+
+<pre>
+&lt;?php
+include "koneksi.php";
+$result = mysqli_query($koneksi, "SELECT * FROM siswa");
+?&gt;
+
+&lt;table border="1"&gt;
+  &lt;tr&gt;&lt;th&gt;No&lt;/th&gt;&lt;th&gt;Nama&lt;/th&gt;&lt;th&gt;Aksi&lt;/th&gt;&lt;/tr&gt;
+  &lt;?php $no=1; while($row = mysqli_fetch_assoc($result)) : ?&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;?= $no++ ?&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;?= $row['nama'] ?&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;a href="form-edit.php?id=&lt;?= $row['id'] ?&gt;"&gt;Edit&lt;/a&gt;
+        &lt;a href="form-delete.php?id=&lt;?= $row['id'] ?&gt;"&gt;Hapus&lt;/a&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;?php endwhile; ?&gt;
+&lt;/table&gt;
+</pre>
+
+<hr />
+
+<h4 id="7-file-form-editphp-dan-updatephp">7. File <code class="language-plaintext highlighter-rouge">form-edit.php</code> dan <code class="language-plaintext highlighter-rouge">update.php</code></h4>
+
+<p>Edit dan update data siswa yang sudah ada. Isi sesuai pola yang sama: ambil data berdasarkan <code class="language-plaintext highlighter-rouge">id</code>, tampilkan dalam form, lalu simpan perubahan dengan query <code class="language-plaintext highlighter-rouge">UPDATE</code>.</p>
+
+<hr />
+
+<h4 id="8-file-form-deletephp-dan-deletephp">8. File <code class="language-plaintext highlighter-rouge">form-delete.php</code> dan <code class="language-plaintext highlighter-rouge">delete.php</code></h4>
+
+<p>Menampilkan konfirmasi penghapusan dan menjalankan query <code class="language-plaintext highlighter-rouge">DELETE</code>.</p>
+
+<hr />
+
+<h3 id="-catatan-tambahan">📌 Catatan Tambahan</h3>
+
+<ul>
+  <li>Semua file harus ada di folder project yang sama.</li>
+  <li>Pastikan Apache dan MySQL diaktifkan melalui XAMPP/Laragon.</li>
+  <li>Cek setiap perubahan melalui <code class="language-plaintext highlighter-rouge">localhost/foldermu/</code>.</li>
+</ul>
+
+<hr />
+
+<h3 id="-kesimpulan">🎯 Kesimpulan</h3>
+
+<ul>
+  <li>PHP + MySQL memungkinkan membuat aplikasi web dinamis.</li>
+  <li>Folder seperti <code class="language-plaintext highlighter-rouge">form-siswa</code> dapat digunakan untuk memisahkan projek.</li>
+  <li>CRUD (Create, Read, Update, Delete) merupakan dasar dari semua aplikasi data.</li>
+</ul>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Membuat Form Pendaftaran Siswa dengan PHP dan MySQL]]></summary></entry><entry><title type="html">Pertemuan 7</title><link href="http://localhost:4000/2025/05/23/pertemuan-7.html" rel="alternate" type="text/html" title="Pertemuan 7" /><published>2025-05-23T00:00:00+07:00</published><updated>2025-05-23T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/23/pertemuan-7</id><content type="html" xml:base="http://localhost:4000/2025/05/23/pertemuan-7.html"><![CDATA[<h2 id="pertemuan-7">Pertemuan 7</h2>
+<p><strong>Tanggal:</strong> 23 Mei 2025<br />
+📝 <strong>Nama:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-topik-praktikum-mengisi-postingan-blog-sebelumnya">📝 Topik Praktikum: Mengisi Postingan Blog Sebelumnya</h3>
+
+<p>Pada praktikum ini, kamu akan belajar cara membuat dan mengisi postingan blog menggunakan Markdown di dalam folder <code class="language-plaintext highlighter-rouge">_posts</code> milikmu di GitHub.</p>
+
+<hr />
+
+<h3 id="-langkah-langkah-praktikum">📂 Langkah-langkah Praktikum:</h3>
+
+<h4 id="1-buka-folder-_posts">1. Buka Folder <code class="language-plaintext highlighter-rouge">_posts</code></h4>
+<p>Masuk ke repository blog kamu (misalnya <code class="language-plaintext highlighter-rouge">jelita009.github.io</code>), lalu cari folder bernama <code class="language-plaintext highlighter-rouge">_posts</code>.</p>
+
+<h4 id="2-buat-file-baru-dengan-format-nama-tertentu">2. Buat File Baru dengan Format Nama Tertentu</h4>
+<p>Tambahkan file baru dengan format nama sebagai berikut:</p>
+
+<pre>
+YYYY-MM-DD-nama-post.md
+</pre>
+
+<p>Contoh:</p>
+
+<pre>
+2025-05-23-pertemuan-7.md
+</pre>
+
+<h4 id="3-tulis-isi-file-markdown">3. Tulis Isi File Markdown</h4>
+<p>Setelah file dibuat, isi konten postingan sesuai keinginanmu. Gunakan format front matter Jekyll di bagian atas:</p>
+
+<pre>
+---
+layout: post
+title: Pertemuan 7
+description: Praktikum membuat postingan blog
+---
+
+## Judul Postingan  
+Tuliskan isi praktikummu di sini. Kamu bisa menggunakan format Markdown untuk membuat teks tebal, miring, list, tautan, atau gambar.
+
+- Contoh list
+- Penjelasan isi praktikum
+</pre>
+
+<hr />
+
+<h3 id="-simpan-dan-push-ke-github">💾 Simpan dan Push ke GitHub</h3>
+
+<p>Setelah selesai menulis:</p>
+
+<ol>
+  <li>Simpan perubahan file <code class="language-plaintext highlighter-rouge">.md</code>.</li>
+  <li>Buka terminal dan lakukan commit:</li>
+</ol>
+
+<pre>
+git add _posts/2025-05-23-pertemuan-7.md
+git commit -m "Add: Postingan praktikum 7"
+git push
+</pre>
+
+<hr />
+
+<h3 id="-kesimpulan">🎯 Kesimpulan</h3>
+
+<ul>
+  <li>Semua post blog Jekyll harus disimpan di folder <code class="language-plaintext highlighter-rouge">_posts</code></li>
+  <li>Nama file wajib pakai format <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-nama.md</code></li>
+  <li>Jangan lupa gunakan front matter (<code class="language-plaintext highlighter-rouge">---</code>) di awal file</li>
+  <li>Markdown memudahkan penulisan konten yang rapi dan terstruktur</li>
+  <li>Setelah selesai, <strong>push</strong> ke GitHub agar tampil di blog online</li>
+</ul>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Cara Mengisi Postingan Blog di Folder _posts]]></summary></entry><entry><title type="html">Pertemuan 6</title><link href="http://localhost:4000/2025/05/16/pertemuan-6.html" rel="alternate" type="text/html" title="Pertemuan 6" /><published>2025-05-16T00:00:00+07:00</published><updated>2025-05-16T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/16/pertemuan-6</id><content type="html" xml:base="http://localhost:4000/2025/05/16/pertemuan-6.html"><![CDATA[<h2 id="pertemuan-6">Pertemuan 6</h2>
+<p><strong>Tanggal:</strong> 16 Mei 2025<br />
+📝 <strong>Nama:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-topik-praktikum-menambahkan-profil-ke-folder-_students-di-github">📘 Topik Praktikum: Menambahkan Profil ke Folder <code class="language-plaintext highlighter-rouge">_students</code> di GitHub</h3>
+
+<p>Pada praktikum ini, kita akan belajar bagaimana cara menambahkan file markdown <code class="language-plaintext highlighter-rouge">.md</code> ke dalam folder <code class="language-plaintext highlighter-rouge">_students</code> pada repository GitHub, misalnya untuk mengisi biodata atau kontribusi tugas individu.</p>
+
+<hr />
+
+<h3 id="-langkah-langkah">🧭 Langkah-langkah:</h3>
+
+<h4 id="1-buka-repository-tujuan">1. Buka Repository Tujuan</h4>
+<p>Kunjungi halaman repository GitHub tempat kamu ingin menambahkan file. Jika belum punya akses, lakukan <strong>fork</strong> ke akun GitHub milikmu sendiri.</p>
+
+<h4 id="2-akses-folder-_students">2. Akses Folder <code class="language-plaintext highlighter-rouge">_students</code></h4>
+<p>Di halaman utama repo, cari folder bernama <code class="language-plaintext highlighter-rouge">_students</code>, lalu klik untuk membukanya.</p>
+
+<h4 id="3-buat-file-baru">3. Buat File Baru</h4>
+<p>Klik ikon tiga titik <code class="language-plaintext highlighter-rouge">...</code> di kanan atas, kemudian pilih opsi <strong>Create new file</strong>.</p>
+
+<h4 id="4-beri-nama-file-dengan-format-yang-ditentukan">4. Beri Nama File dengan Format yang Ditentukan</h4>
+<p>Gunakan nama file sesuai instruksi, contoh:</p>
+
+<pre>
+Jelita.md
+</pre>
+
+<p>Nama harus unik dan tidak sama dengan milik orang lain.</p>
+
+<h4 id="5-isi-konten-file-dengan-format-markdown">5. Isi Konten File dengan Format Markdown</h4>
+<p>Ketikkan data dirimu sesuai format berikut:</p>
+
+<pre>
+---
+layout: student
+short_name: Jelita
+name: Jelita Anggraini
+nim: 2024573010015
+class: TI-1C
+website: https://jelita009.github.io
+---
+
+Deskripsi diri:
+Saya berasal dari Kabupaten Serdang Bedagai, dan punya latar belakang dari SMK RPL. Di kampus, Saya aktif belajar tentang pemrograman dan teknologi. 
+</pre>
+
+<hr />
+
+<h3 id="-commit-dan-buat-pull-request">✅ Commit dan Buat Pull Request</h3>
+
+<h4 id="6-scroll-ke-bawah-dan-isi-commit">6. Scroll ke Bawah dan Isi Commit</h4>
+<p>Isi bagian commit message dengan jelas, contoh:</p>
+
+<pre>
+Add profile file for JelitaAnggraini.md
+</pre>
+
+<h4 id="7-propose-file--pull-request">7. Propose File &amp; Pull Request</h4>
+<p>Klik tombol hijau <strong>Propose new file</strong>, lalu lanjutkan dengan tombol <strong>Create pull request</strong> untuk mengajukan perubahanmu ke repo utama.</p>
+
+<hr />
+
+<h3 id="-tunggu-review-dari-owner">⏳ Tunggu Review dari Owner</h3>
+<p>Tinggal menunggu pull request kamu dicek dan diterima oleh pemilik repository. Pastikan datanya sudah benar dan lengkap.</p>
+
+<hr />
+
+<h3 id="-kesimpulan">🎯 Kesimpulan</h3>
+<ul>
+  <li>Gunakan GitHub untuk kontribusi langsung ke repo.</li>
+  <li>Ikuti struktur dan format file dengan benar.</li>
+  <li>Selalu isi deskripsi file dan commit message.</li>
+  <li>Jangan ragu membuat pull request jika kontribusimu sudah siap!</li>
+</ul>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Cara Menambahkan File ke Folder _students di GitHub]]></summary></entry><entry><title type="html">Pertemuan 5</title><link href="http://localhost:4000/2025/04/24/pertemuan-5.html" rel="alternate" type="text/html" title="Pertemuan 5" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/pertemuan-5</id><content type="html" xml:base="http://localhost:4000/2025/04/24/pertemuan-5.html"><![CDATA[<h2 id="pertemuan-5">Pertemuan 5</h2>
 <p><strong>Tanggal:</strong> 24 April 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -34,7 +410,56 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[JavaScript dan _config.yml]]></summary></entry><entry><title type="html">Pertemuan 3</title><link href="http://localhost:4000/2025/03/14/pertemuan-3.html" rel="alternate" type="text/html" title="Pertemuan 3" /><published>2025-03-14T00:00:00+07:00</published><updated>2025-03-14T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/14/pertemuan-3</id><content type="html" xml:base="http://localhost:4000/2025/03/14/pertemuan-3.html"><![CDATA[<h2 id="pertemuan-3">Pertemuan 3</h2>
+</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[JavaScript dan _config.yml]]></summary></entry><entry><title type="html">Pertemuan 4 - HTML Link dan List</title><link href="http://localhost:4000/2025/03/21/pertemuan-4.html" rel="alternate" type="text/html" title="Pertemuan 4 - HTML Link dan List" /><published>2025-03-21T00:00:00+07:00</published><updated>2025-03-21T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/21/pertemuan-4</id><content type="html" xml:base="http://localhost:4000/2025/03/21/pertemuan-4.html"><![CDATA[<h2 id="-praktikum-4--html-link-dan-list">🔗 Praktikum 4 – HTML Link dan List</h2>
+
+<p>📅 <strong>Tanggal:</strong> 21 Maret 2025<br />
+📝 <strong>Penulis:</strong> Jelita Anggraini</p>
+
+<hr />
+
+<h3 id="-penjelasan-singkat">📘 Penjelasan Singkat</h3>
+
+<p>Pada praktikum ini, kita mempelajari bagaimana membuat <strong>tautan (link)</strong> dan <strong>daftar (list)</strong> dalam HTML. Elemen-elemen ini sangat penting untuk navigasi dan struktur konten di halaman web.</p>
+
+<hr />
+
+<h3 id="-link-tautan-di-html">🔗 Link (Tautan) di HTML</h3>
+
+<p>Tautan di HTML dibuat menggunakan elemen <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>.<br />
+Format dasar:</p>
+
+<pre>
+&lt;a href="https://www.example.com"&gt;Kunjungi Example&lt;/a&gt;
+</pre>
+
+<ul>
+  <li>href → URL tujuan&lt;/li&gt;</li>
+  <li>Bisa menggunakan URL absolut atau relatif</li>
+</ul>
+
+<pre>
+&lt;a href="https://google.com" target="_blank"&gt;Buka Google di tab baru&lt;/a&gt;
+&lt;a href="terserah.html"&gt;Link ke halaman lokal&lt;/a&gt;
+&lt;a href="mailto:jelita@gmail.com"&gt;Kirim Email&lt;/a&gt;
+</pre>
+
+<ul>
+  <li>target=”_blank” → Buka di tab baru</li>
+</ul>
+
+<h3 id="-list-daftar-di-html">📋 List (Daftar) di HTML</h3>
+<p>HTML menyediakan dua jenis daftar utama:</p>
+
+<p>1️. Ordered List (Daftar Berurutan)
+Menggunakan &lt;ol&gt; dan &lt;li&gt;, secara default diberi nomor:</p>
+
+<pre>
+    &lt;ol
+    &lt;<li>HTML</li>
+    &lt;<li>CSS</li>
+    &lt;<li>JavaScript</li>
+    &lt;/ol
+</pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Mengenal cara membuat tautan dan daftar menggunakan HTML]]></summary></entry><entry><title type="html">Pertemuan 3</title><link href="http://localhost:4000/2025/03/14/pertemuan-3.html" rel="alternate" type="text/html" title="Pertemuan 3" /><published>2025-03-14T00:00:00+07:00</published><updated>2025-03-14T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/14/pertemuan-3</id><content type="html" xml:base="http://localhost:4000/2025/03/14/pertemuan-3.html"><![CDATA[<h2 id="pertemuan-3">Pertemuan 3</h2>
 <p><strong>Tanggal:</strong> 14 Maret 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
