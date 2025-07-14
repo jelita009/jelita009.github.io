@@ -1,7 +1,7 @@
 <nav>
     <ul>
       <li><a href="{{ site.baseurl }}/" class="active">Beranda</a></li>
-      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="{{ site.baseurl }}/#tentang">Tentang</a></li>
       {% for item in site.data.navigation %}
         <li>
           <a href="{{ item.link }}" {% if page.url == item.link %} class="current"{% endif %}>

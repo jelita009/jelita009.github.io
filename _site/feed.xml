@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-15T00:11:18+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pertemuan 9</title><link href="http://localhost:4000/2025/06/20/pertemuan-9.html" rel="alternate" type="text/html" title="Pertemuan 9" /><published>2025-06-20T00:00:00+07:00</published><updated>2025-06-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/06/20/pertemuan-9</id><content type="html" xml:base="http://localhost:4000/2025/06/20/pertemuan-9.html"><![CDATA[<h2 id="pertemuan-9">Pertemuan 9</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-15T01:32:41+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Pertemuan 9 - Membuat Form Pendaftaran Siswa dengan PHP dan MySQL</title><link href="http://localhost:4000/2025/06/20/pertemuan-9.html" rel="alternate" type="text/html" title="Pertemuan 9 - Membuat Form Pendaftaran Siswa dengan PHP dan MySQL" /><published>2025-06-20T00:00:00+07:00</published><updated>2025-06-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/06/20/pertemuan-9</id><content type="html" xml:base="http://localhost:4000/2025/06/20/pertemuan-9.html"><![CDATA[<h2 id="pertemuan-9">Pertemuan 9</h2>
 <p><strong>Tanggal:</strong> 20 Juni 2025<br />
 📝 <strong>Nama:</strong> Jelita Anggraini</p>
 
@@ -51,7 +51,7 @@ git@github.com:JTIK-PNL/php-crud-jelita009.git
 
 <pre>
 git clone git@github.com:JTIK-PNL/php-crud-jelita009.git
-</pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Mengumpulkan Tugas via GitHub Classroom]]></summary></entry><entry><title type="html">Pertemuan 8</title><link href="http://localhost:4000/2025/06/13/pertemuan-8.html" rel="alternate" type="text/html" title="Pertemuan 8" /><published>2025-06-13T00:00:00+07:00</published><updated>2025-06-13T00:00:00+07:00</updated><id>http://localhost:4000/2025/06/13/pertemuan-8</id><content type="html" xml:base="http://localhost:4000/2025/06/13/pertemuan-8.html"><![CDATA[<h2 id="pertemuan-8">Pertemuan 8</h2>
+</pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Mengumpulkan Tugas via GitHub Classroom]]></summary></entry><entry><title type="html">Pertemuan 8 - Membuat Form Pendaftaran Siswa dengan PHP dan MySQL</title><link href="http://localhost:4000/2025/06/13/pertemuan-8.html" rel="alternate" type="text/html" title="Pertemuan 8 - Membuat Form Pendaftaran Siswa dengan PHP dan MySQL" /><published>2025-06-13T00:00:00+07:00</published><updated>2025-06-13T00:00:00+07:00</updated><id>http://localhost:4000/2025/06/13/pertemuan-8</id><content type="html" xml:base="http://localhost:4000/2025/06/13/pertemuan-8.html"><![CDATA[<h2 id="pertemuan-8">Pertemuan 8</h2>
 <p><strong>Tanggal:</strong> 13 Juni 2025<br />
 📝 <strong>Nama:</strong> Jelita Anggraini</p>
 
@@ -220,7 +220,7 @@ $result = mysqli_query($koneksi, "SELECT * FROM siswa");
   <li>CRUD (Create, Read, Update, Delete) merupakan dasar dari semua aplikasi data.</li>
 </ul>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Membuat Form Pendaftaran Siswa dengan PHP dan MySQL]]></summary></entry><entry><title type="html">Pertemuan 7</title><link href="http://localhost:4000/2025/05/23/pertemuan-7.html" rel="alternate" type="text/html" title="Pertemuan 7" /><published>2025-05-23T00:00:00+07:00</published><updated>2025-05-23T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/23/pertemuan-7</id><content type="html" xml:base="http://localhost:4000/2025/05/23/pertemuan-7.html"><![CDATA[<h2 id="pertemuan-7">Pertemuan 7</h2>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Membuat Form Pendaftaran Siswa dengan PHP dan MySQL]]></summary></entry><entry><title type="html">Pertemuan 7 - Cara Mengisi Postingan Blog di Folder _posts</title><link href="http://localhost:4000/2025/05/23/pertemuan-7.html" rel="alternate" type="text/html" title="Pertemuan 7 - Cara Mengisi Postingan Blog di Folder _posts" /><published>2025-05-23T00:00:00+07:00</published><updated>2025-05-23T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/23/pertemuan-7</id><content type="html" xml:base="http://localhost:4000/2025/05/23/pertemuan-7.html"><![CDATA[<h2 id="pertemuan-7">Pertemuan 7</h2>
 <p><strong>Tanggal:</strong> 23 Mei 2025<br />
 📝 <strong>Nama:</strong> Jelita Anggraini</p>
 
@@ -296,7 +296,7 @@ git push
   <li>Setelah selesai, <strong>push</strong> ke GitHub agar tampil di blog online</li>
 </ul>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Cara Mengisi Postingan Blog di Folder _posts]]></summary></entry><entry><title type="html">Pertemuan 6</title><link href="http://localhost:4000/2025/05/16/pertemuan-6.html" rel="alternate" type="text/html" title="Pertemuan 6" /><published>2025-05-16T00:00:00+07:00</published><updated>2025-05-16T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/16/pertemuan-6</id><content type="html" xml:base="http://localhost:4000/2025/05/16/pertemuan-6.html"><![CDATA[<h2 id="pertemuan-6">Pertemuan 6</h2>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Cara Mengisi Postingan Blog di Folder _posts]]></summary></entry><entry><title type="html">Pertemuan 6 - Menambahkan Profil ke Folder `_students` di GitHub</title><link href="http://localhost:4000/2025/05/16/pertemuan-6.html" rel="alternate" type="text/html" title="Pertemuan 6 - Menambahkan Profil ke Folder `_students` di GitHub" /><published>2025-05-16T00:00:00+07:00</published><updated>2025-05-16T00:00:00+07:00</updated><id>http://localhost:4000/2025/05/16/pertemuan-6</id><content type="html" xml:base="http://localhost:4000/2025/05/16/pertemuan-6.html"><![CDATA[<h2 id="pertemuan-6">Pertemuan 6</h2>
 <p><strong>Tanggal:</strong> 16 Mei 2025<br />
 📝 <strong>Nama:</strong> Jelita Anggraini</p>
 
@@ -374,7 +374,7 @@ Add profile file for JelitaAnggraini.md
   <li>Jangan ragu membuat pull request jika kontribusimu sudah siap!</li>
 </ul>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Cara Menambahkan File ke Folder _students di GitHub]]></summary></entry><entry><title type="html">Pertemuan 5</title><link href="http://localhost:4000/2025/04/24/pertemuan-5.html" rel="alternate" type="text/html" title="Pertemuan 5" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/pertemuan-5</id><content type="html" xml:base="http://localhost:4000/2025/04/24/pertemuan-5.html"><![CDATA[<h2 id="pertemuan-5">Pertemuan 5</h2>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Cara Menambahkan File ke Folder _students di GitHub]]></summary></entry><entry><title type="html">Pertemuan 5 - JavaScript dan _config.yml</title><link href="http://localhost:4000/2025/04/24/pertemuan-5.html" rel="alternate" type="text/html" title="Pertemuan 5 - JavaScript dan _config.yml" /><published>2025-04-24T00:00:00+07:00</published><updated>2025-04-24T00:00:00+07:00</updated><id>http://localhost:4000/2025/04/24/pertemuan-5</id><content type="html" xml:base="http://localhost:4000/2025/04/24/pertemuan-5.html"><![CDATA[<h2 id="pertemuan-5">Pertemuan 5</h2>
 <p><strong>Tanggal:</strong> 24 April 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -459,7 +459,7 @@ Menggunakan &lt;ol&gt; dan &lt;li&gt;, secara default diberi nomor:</p>
     &lt;<li>CSS</li>
     &lt;<li>JavaScript</li>
     &lt;/ol
-</pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Mengenal cara membuat tautan dan daftar menggunakan HTML]]></summary></entry><entry><title type="html">Pertemuan 3</title><link href="http://localhost:4000/2025/03/14/pertemuan-3.html" rel="alternate" type="text/html" title="Pertemuan 3" /><published>2025-03-14T00:00:00+07:00</published><updated>2025-03-14T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/14/pertemuan-3</id><content type="html" xml:base="http://localhost:4000/2025/03/14/pertemuan-3.html"><![CDATA[<h2 id="pertemuan-3">Pertemuan 3</h2>
+</pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Mengenal cara membuat tautan dan daftar menggunakan HTML]]></summary></entry><entry><title type="html">Pertemuan 3 - Menulis Post di Jekyll dengan Markdown</title><link href="http://localhost:4000/2025/03/14/pertemuan-3.html" rel="alternate" type="text/html" title="Pertemuan 3 - Menulis Post di Jekyll dengan Markdown" /><published>2025-03-14T00:00:00+07:00</published><updated>2025-03-14T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/14/pertemuan-3</id><content type="html" xml:base="http://localhost:4000/2025/03/14/pertemuan-3.html"><![CDATA[<h2 id="pertemuan-3">Pertemuan 3</h2>
 <p><strong>Tanggal:</strong> 14 Maret 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -527,7 +527,7 @@ Ini paragraf pertama.</p>
 <h3 id="6-garis-pembatas">6. Garis Pembatas</h3>
 <p><strong>Untuk membuat pemisah antar bagian:</strong></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Menulis Post di Jekyll dengan Markdown]]></summary></entry><entry><title type="html">Pertemuan 2</title><link href="http://localhost:4000/2025/03/07/Pertemuan-2.html" rel="alternate" type="text/html" title="Pertemuan 2" /><published>2025-03-07T00:00:00+07:00</published><updated>2025-03-07T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/07/Pertemuan-2</id><content type="html" xml:base="http://localhost:4000/2025/03/07/Pertemuan-2.html"><![CDATA[<h2 id="pertemuan-2">Pertemuan 2</h2>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Menulis Post di Jekyll dengan Markdown]]></summary></entry><entry><title type="html">Pertemuan 2 - Membuat Web Pribadi Pakai Jekyll + GitHub</title><link href="http://localhost:4000/2025/03/07/Pertemuan-2.html" rel="alternate" type="text/html" title="Pertemuan 2 - Membuat Web Pribadi Pakai Jekyll + GitHub" /><published>2025-03-07T00:00:00+07:00</published><updated>2025-03-07T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/07/Pertemuan-2</id><content type="html" xml:base="http://localhost:4000/2025/03/07/Pertemuan-2.html"><![CDATA[<h2 id="pertemuan-2">Pertemuan 2</h2>
 <p><strong>Tanggal:</strong> 07 Maret 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
@@ -640,7 +640,7 @@ Berikut beberapa teman saya di kelas:
 - [Jelita Anggraini](https://jexiee99.github.io/)
 - teman-teman lainnya...
 
-</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Membuat Web Pribadi Pakai Jekyll + GitHub]]></summary></entry><entry><title type="html">Pertemuan 1</title><link href="http://localhost:4000/2025/02/21/Pertemuan-1.html" rel="alternate" type="text/html" title="Pertemuan 1" /><published>2025-02-21T00:00:00+07:00</published><updated>2025-02-21T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/21/Pertemuan-1</id><content type="html" xml:base="http://localhost:4000/2025/02/21/Pertemuan-1.html"><![CDATA[<h2 id="pertemuan-1">Pertemuan 1</h2>
+</code></pre>]]></content><author><name></name></author><summary type="html"><![CDATA[Membuat Web Pribadi Pakai Jekyll + GitHub]]></summary></entry><entry><title type="html">Pertemuan 1 - Pengenalan Instalasi Ruby dan Jekyll</title><link href="http://localhost:4000/2025/02/21/Pertemuan-1.html" rel="alternate" type="text/html" title="Pertemuan 1 - Pengenalan Instalasi Ruby dan Jekyll" /><published>2025-02-21T00:00:00+07:00</published><updated>2025-02-21T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/21/Pertemuan-1</id><content type="html" xml:base="http://localhost:4000/2025/02/21/Pertemuan-1.html"><![CDATA[<h2 id="pertemuan-1">Pertemuan 1</h2>
 <p><strong>Tanggal:</strong> 21 Februari 2025<br />
 📝       <strong>:</strong> Jelita Anggraini</p>
 
