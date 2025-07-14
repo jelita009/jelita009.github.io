@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jexiee99.github.io//2025/02/21/Pertemuan-1-Bikin-Web-Pribadi-Pakai-Jekyll-+-GitHub.html</loc>
+<loc>http://localhost:4000/2025/02/21/Pertemuan-1-Bikin-Web-Pribadi-Pakai-Jekyll-+-GitHub.html</loc>
 <lastmod>2025-02-21T00:00:00+07:00</lastmod>
 </url>
 <url>
-<loc>https://jexiee99.github.io//2025/03/07/Pertemuan-2.html</loc>
+<loc>http://localhost:4000/2025/03/07/Pertemuan-2.html</loc>
 <lastmod>2025-03-07T00:00:00+07:00</lastmod>
 </url>
 <url>
-<loc>https://jexiee99.github.io//2025/03/14/pertemuan-3.html</loc>
+<loc>http://localhost:4000/2025/03/14/pertemuan-3.html</loc>
 <lastmod>2025-03-14T00:00:00+07:00</lastmod>
 </url>
 <url>
-<loc>https://jexiee99.github.io//2025/04/24/pertemuan-4.html</loc>
+<loc>http://localhost:4000/2025/04/24/pertemuan-4.html</loc>
 <lastmod>2025-04-24T00:00:00+07:00</lastmod>
 </url>
 <url>
-<loc>https://jexiee99.github.io//blog.html</loc>
+<loc>http://localhost:4000/blog.html</loc>
 </url>
 <url>
-<loc>https://jexiee99.github.io//friends.html</loc>
+<loc>http://localhost:4000/friends.html</loc>
 </url>
 <url>
-<loc>https://jexiee99.github.io//</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 </urlset>
